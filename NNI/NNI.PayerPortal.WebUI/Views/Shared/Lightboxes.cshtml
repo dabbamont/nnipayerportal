@@ -1,0 +1,573 @@
+﻿<div id="external-link-lightbox" class="lightbox">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    You are now leaving NovoPayerLink.com<br>
+    Novo Nordisk Inc. is not responsible for the content of the site you are about to
+    visit.<br>
+    <a href="http://www.ncqa.org/">http://www.ncqa.org/</a><br>
+    <br />
+    <div style="text-align: right;"><input type="submit" value="Cancel">
+    <input type="submit" value="Continue"></div>
+    
+</div>
+<div class="lightbox regular" id="preferences">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <span class="title" style="font-size: 14px; font-weight: bold; color: #004F93;">Preferences</span>
+    <form class="lightbox" action="@Url.Action("Preferences", "Account")" method="post">
+    <span class="form-question">
+        <input type="radio" name="to-change" value="ChangePassword" />
+        I would like to change my password. </span>
+    <table class="indented">
+        <tr>
+            <td>
+                Old Password:
+            </td>
+            <td>
+                <input type="password" name="OldPassword" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                New Password:
+            </td>
+            <td>
+                <input type="password" name="NewPassword" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Confirm New Password:
+            </td>
+            <td>
+                <input type="password" name="ConfirmNewPassword" />
+            </td>
+        </tr>
+    </table>
+    <span class="form-question">
+        <input type="radio" name="to-change" value="ChangeEmail" />
+        I would like to change my email address. </span>
+    <table class="indented">
+        <tr>
+            <td>
+                Old Email:
+            </td>
+            <td>
+                <input type="text" name="OldEmail" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                New Email:
+            </td>
+            <td>
+                <input type="text" name="NewEmail" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Confirm New Email:
+            </td>
+            <td>
+                <input type="text" name="ConfirmNewEmail" />
+            </td>
+        </tr>
+    </table>
+    
+    <div class="lightbox-submit">
+        <div class="link">
+        </div>
+        <div class="button">
+            <input type="submit" value="Submit" /></div>
+    </div>
+    </form>
+</div>
+<div class="lightbox regular" id="item">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <input type="hidden" name="resourceId" />
+    <div id="item-lightbox-section">
+        Diabetes Management</div>
+    <div id="item-lightbox-image">
+        <img src="@Url.Content("~/Content//Images/item-lightbox-image.png")">
+    </div>
+    <div id="item-lightbox-info">
+        <div id="item-lightbox-title">
+            Hypoglycemia signs and symptoms
+        </div>
+        <div id="item-lightbox-description">
+            A tool to help your members recognize and manage hypoglycemic events
+        </div>
+    </div>
+    <div id="item-lightbox-note">
+    </div>
+    <div id="item-lightbox-buttons">
+        <div class="lightbox-button" id="preview-button">
+            <div class="lightbox-button-image">
+                <img src="@Url.Content("~/Content//Images/item-button-preview.png")"></div>
+            <div class="lightbox-button-text">
+                <a href="#">Preview</a>
+            </div>
+        </div>
+        <div class="lightbox-button" id="add-to-library-button">
+            <div class="lightbox-button-image">
+                <img src="@Url.Content("~/Content//Images/item-button-add.png")"></div>
+            <div class="lightbox-button-text">
+                <a href="#">Add to My Library</a></div>
+        </div>
+        <div class="lightbox-button" id="request-meeting-button">
+            <div class="lightbox-button-image">
+                <img src="@Url.Content("~/Content//Images/item-button-request-meeting.png")"></div>
+            <div class="lightbox-button-text">
+                <a href="#">Request a Meeting</a></div>
+        </div>
+    </div>
+</div>
+<div class="lightbox regular" id="request-item">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <input type=hidden id="ResourceId"/>
+    <div>
+        Please check all that apply.</div>
+    <form action="/Resource/RequestResource">
+    <span class="form-question" style="color: #004F93;">
+        <input type="radio" name="order-resource" value="yes" />
+        I would like to order this resource </span>
+    <br />
+    <span class="form-question" style="color: #004F93;">
+        <input type="radio" name="order-resource" value="yes" />
+        I would like to schedule an in-person meeting </span>
+    <br />
+    <div>
+        How would you prefer to be contacted?</div>
+    <table class="indented">
+        <tr>
+            <td valign="middle">
+                <span style="vertical-align: middle; display: inline-block;"><input type="checkbox" name="contact-method" value="email" />Email:</span>
+            </td>
+            <td valign="middle"><input type=text /></td>
+        </tr>
+        <tr>
+            <td valign="middle">
+                <span style="vertical-align: middle; display: inline-block;"><input type="checkbox" name="contact-method" value="email" />Phone:</span>
+            </td>
+            <td valign="middle">
+                <input type="text" class="phone-3" name="phone-area" />
+                -
+                <input type="text" class="phone-3" name="phone-exchange" />
+                -
+                <input type="text" class="phone-4" name="phone-number" />
+            </td>
+        </tr>
+    </table>
+    <div>
+        How would you prefer to be contacted?</div>
+    <div class="form-check">
+        <span>
+            <input type="radio"></span><span>Morning&nbsp;&nbsp;</span> <span>
+                <input type="radio"></span><span>Afternoon&nbsp;&nbsp;</span> <span>
+                    <input type="radio"></span><span>Evening&nbsp;&nbsp;</span>
+    </div>
+    
+    <div class="lightbox-submit">
+        <div class="link">
+            <a href="#">Privacy Policy</a></div>
+        <div class="button">
+            <input type="submit" value="Submit" /></div>
+    </div>
+    </form>
+</div>
+<div id="lightbox-new-password" class="lightbox regular">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <div class="small-text">
+        Password must contain 8-20 letters, upper and lowercase, and 1 number or symbol)
+    </div>
+    <form class="lightbox" action="/Account/NewPassword">
+    <table>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Old Password:
+            </td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                New Password:
+            </td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+    </table>
+    
+    <div class="lightbox-submit">
+        <div class="link">
+            <a href="#">Privacy Policy</a></div>
+        <div class="button">
+            <input type="submit" value="Submit" /></div>
+    </div>
+    </form>
+</div>
+<div id="request-temporary-password" class="lightbox regular">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <div>
+        To receive your password, please enter the email address you used to register for
+        this site.</div>
+    <form class="lightbox" action="/Account/RequestTemporaryPassword">
+    <table>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="text" name="Email">
+            </td>
+        </tr>
+    </table>
+    
+    <div class="lightbox-submit">
+        <div class="link">
+            <a href="#">Privacy Policy</a></div>
+        <div class="button">
+            <input type="submit" value="Submit" /></div>
+    </div>
+    </form>
+</div>
+<div id="lightbox-request-access" class="lightbox regular">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <div>
+        To request access to this site, please provide your information.</div>
+    <form class="lightbox" action="/Account/RequestAccess">
+    <table>
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+                <input type="text" name="FirstName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" name="LastName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="text" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Organization:
+            </td>
+            <td>
+                <input type="text" name="Organization">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone:
+                <br>
+                (Optional)
+            </td>
+            <td>
+                <input type="text" class="phone-3" name="Phone1">
+                -
+                <input type="text" class="phone-3" name="Phone2">
+                -
+                <input type="text" class="phone-4" name="Phone3">
+            </td>
+        </tr>
+        
+    </table>
+    
+    <div class="lightbox-submit">
+        <div class="link">
+            <a href="#">Privacy Policy</a></div>
+        <div class="button">
+            <input type="submit" value="Submit" /></div>
+    </div>
+    </form>
+</div>
+<div id="lightbox-privacy-policy" class="lightbox">
+</div>
+<div class="lightbox regular" id="privacy">
+    <div id="lightbox-close" class="lightbox-close">
+        <a href="#">
+            <img src="@Url.Content("~/Content//Images/lightbox-close.png")"></a>
+    </div>
+    <div style="width: 100%; height: 360px; overflow: auto; max-height: 360px;">
+        <h1>
+            Disclaimer & Privacy</h1>
+        <h2>
+            1. Privacy Policy & Disclaimer</h2>
+        ﻿ Dear Visitor, at Novo Nordisk we respect and protect your privacy. This website
+        has been created to provide information about our company, products and services.
+        This privacy policy describes how and why we collect information about you as a
+        user. This privacy statement applies only to information gathered on this site.
+        We strongly encourage you to read the privacy statements of every site you visit
+        that gathers personally identifiable information.
+        <h2>
+            2. Why we gather information</h2>
+        ﻿ We at Novo Nordisk strive to make a difference and improve the life of millions
+        of people affected by diabetes and other illnesses around the world. We use information
+        about our visitors to improve our products and gather vital information that could
+        help us improve our websites. Being an industry leader in Corporate Social Responsibility
+        we take your privacy seriously, and we only collect and keep information as long
+        as we need it for a specific task. We will never transfer or sell personally identifiable
+        information about our visitors to a third party unless we explicitly state so at
+        the time of collection, or ask for your permission before doing so.
+        <h2>
+            3. Two types of information</h3> Some information we ask you for directly, but other
+            information is collected automatically. All information collected automatically
+            is stored in an aggregate form and can not be used to identify you as a specific
+            individual. To provide additional functionality on our websites, answer your enquiries,
+            and improve our products, we occasionally ask you to provide us with information
+            that can at times be personally identifiable and sensitive. As a result, information
+            gathered by us can be divided into two main categories: personally identifiable
+            and sensitive information, and aggregated visitor statistics. We do not link aggregated
+            visitor statistics with personally identifiable and sensitive information.
+            <h2>
+                Aggregated visitor statistics</h2>
+            ﻿ When you visit one of our websites, we automatically collect general information
+            about your computer and its location, as well as where you came from. This information
+            can not be used to identify you as an individual. This information is only used
+            in aggregate form to tell us where our visitors come from, what they look at, and
+            where they spend the most time. This allows us to improve our websites to create
+            a better experience for you. Information we gather automatically: Your referrer
+            (i.e. where you came from, e.g. Google) Date and time of your visit Your regional
+            and language settings (to determine which country you are in) Operating System (Windows,
+            OS X, Linux etc.) Browser & Browser Version (Internet Explorer, Firefox, Opera,
+            Safari etc.) Screen Resolution (1280x1024, 1024x768, etc.) JavaScript support Java
+            support Visitor ID (Provided by a cookie we place on your computer when possible,
+            helps us measure how many visitors return to our websites) IP address (Your computers
+            address on the internet) The title of the page you are viewing The URL of the page
+            you are viewing
+            <h2>
+                Personally identifiable information</h2>
+            ﻿ At times, we need to collect more personal information about you. Some of our
+            websites might require you to register in order to log in, in which case you will
+            be required to provide personal information about yourself to us. We might also
+            collect your name and email address to enter you into a prize draw for a survey
+            that you fill out on our site. We might ask you for information such as your age
+            and occupation to better understand our visitors, and to improve your visitor experience.
+            Typically, the information we ask for includes some of the following, but this list
+            is not exhaustive: Contact details, such as your name and e-mail/ postal address
+            Basic information about you, such as age and gender Health and Treatment data Other
+            information may also be asked, when relevant, and could include information about
+            lifestyle or the household you live in as these impact aspects of managing medical
+            conditions. In any case, whenever we ask you for any personally information that
+            can be used to identify you as an individual, we will always provide an explanation
+            as to why we gather the information, how we gather it, how we store it, and how
+            we plan on treating and using it. We will only gather this information if you specifically
+            agree to ‘opt-in’, i.e. you explicitly give us your consent to collect this information
+            from you. We will not gather any personally identifiable information from you unless
+            you specifically agree to provide it to us. We will only gather and store personally
+            identifiable information for the purpose stated during the gathering process. When
+            we finish processing your information for the stated purpose, we will erase and
+            destroy it to ensure your privacy. There is always a lot of information that a company
+            can ask you for, but Novo Nordisk will only ask for information where there is a
+            clear and necessary need for that information, which is clearly and adequately explained
+            to you. You will always have a choice as to what information you provide. Also,
+            you can write to us and ask for a summary of information we have that relates to
+            you or, if the site does not provide the opportunity for you to directly edit information
+            you provided, contact us to have information deleted or modified.
+            <h2>
+                4. How we gather information</h2>
+            ﻿ There are three main ways in which we gather information. They will be explained
+            below.
+            <h3>
+                Server logs</h3>
+            ﻿ As with most other web sites, our servers keep logs over which files were downloaded,
+            and which computers downloaded those files. Information gathered by our servers
+            can be analysed and used to create aggregate visitor statistics which we use for
+            evaluating and improving our sites.
+            <h3>
+                Javascripts</h3>
+            ﻿ We use a javascript based visitor tracking solution called Omniture Site Catalyst
+            developed by Adobe. This software uses cookies on your computer together with small
+            javascripts on our pages that are executed every time you click somewhere on our
+            site. We use this software for tracking clickstream data and analysing various patterns
+            of user behaviour, which is vital to our understanding of our visitor's needs and
+            interest, and our ability to improve our sites. Aggregate visitor information is
+            sent by your computer to secure servers owned by Adobe. Only Novo Nordisk and Adobe
+            are allowed to access this data. Sale or transfer of any data to a third party is
+            strictly forbidden.
+            <h3>
+                Cookies</h3>
+            ﻿ A cookie is a small text file that is stored by us on your computer for record-keeping
+            purposes. Our javascript visitor tracking solution uses cookies as a way of identifying
+            whether a visitor that comes to our site is a new visitor, or a visitor that has
+            been to our site before. We use both session ID and persistent cookies to track
+            your viewing of our site. A session cookie expires as soon as you leave our site,
+            while a persistent cookie stays on your computer to help us measure the number of
+            returning visitors to our site. Cookies are also used by us to ensure that you don’t
+            have to enter your password or otherwise identify yourself more than once per visit.
+            You can easily remove persistent cookies from your computer by following directions
+            written in your browsers help documentation, you can also use your browsers help
+            documentation to find out how to stop your computer from accepting cookies from
+            the websites you visit. Blocking or erasing cookies from your computer will not
+            affect your ability to visit or view our site, but some functions such as surveys
+            and tools might operate with reduced functionality or not at all.
+            <h2>
+                5. Chat Rooms and Forums</h2>
+            ﻿ We may also use cookies in connection with our chat rooms in order to record your
+            preferences. These cookies may automatically store information pertaining to the
+            last Novo Nordisk chat room you visited, as well as certain comments that can be
+            issued in the chat room, in order to facilitate your experience with the chat rooms.
+            No additional identifying information is stored in these cookies. You may also have
+            the option of allowing us to use a cookie to store your username and password on
+            your computer for use in the chat rooms, forums and other sites, as indicated on
+            the particular site. This privacy policy does not cover the information submitted
+            by you to chat rooms and forums. Please be aware that we can not be held responsible
+            for anything you post in our chat rooms or forums, and as a result can not protect
+            you from disclosing personally identifiable information in our forums and chat rooms.
+            Please take additional caution regarding your personally identifiable information
+            when posting to forums and chatting in chat rooms. As soon as you submit information
+            to our forums, it will be made public, and could be very difficult, if not impossible
+            to remove from the internet afterwards.
+            <h2>
+                6. Disclosure to Third Parties</h2>
+            ﻿ The only third party that might have access to your information is our visitor
+            traffic tracking vendor Adobe Omniture. We store our aggregated visitor traffic
+            data, and survey data on their secure servers in the United States. Adobe Omniture
+            is strictly forbidden from transferring any part of our data stored on their servers
+            to any other third party. We don’t share personally identifying or sensitive information
+            with other third parties without your prior explicit permission, except when required
+            by law or official regulations. Such information is kept within Novo Nordisk or
+            on Adobe Omniture’s secure servers. If we want to work with another organisation
+            where data sharing may be considered, we will ask your permission (and are legally
+            obliged to do so) to share your individual information. If you agree to this, we
+            ensure that our partners honour this Privacy Policy.
+            <h2>
+                7. Protection for Children</h2>
+            ﻿ ﻿ Protecting the privacy of children is important. Novo Nordisk does not intend
+            to collect personally identifiable information from children (a child is defined
+            as being under the age of 18 without permission of the child’s parent or legal guardian.
+            Children should submit personally identifiable information to Novo Nordisk only
+            with the explicit permission of their parent or legal guardian. Where appropriate,
+            we will instruct children not to submit personal information. If your child has
+            submitted personal information and you would like to request that such information
+            be removed, please contact webmaster@novonordisk.com.
+            <h2>
+                8. Customer Questions</h2>
+            ﻿ ﻿ ﻿ If you have any questions about the Novo Nordisk Privacy Policy, its implementation,
+            the accuracy of your personal information or the use of the information collected
+            you may contact us via e-mail at webmaster@novonordisk.com or you can reach us by
+            telephone at +45 4444 8888. Ask for a person in Corporate Communications. You can
+            also mail us at: Novo Nordisk A/S, Novo Allé Att. Corporate Communications 2880
+            Bagsværd Denmark
+            <h2>
+                9. Changes and Updates</h2>
+            ﻿ Novo Nordisk will keep this Privacy Policy updated. We reserve the right to change
+            this policy at any time. A change in internet privacy policy will be communicated
+            here, and if this change affects your personal data, you will be contacted by us
+            if you have given us your contact details and permission to contact you. This policy
+            was last updated on April 2011. Novo Nordisk owns the rights to this Privacy Policy
+            text.
+            <h2>
+                10. Legal Disclaimers</h2>
+            ﻿
+            <h3>
+                Information purposes</h3>
+            The content presented on the Novo Nordisk website is presented solely for informational
+            purposes. The site does not provide you with advice or recommendation of any kind
+            and should not be relied on as the basis for any decision or action. You are advised
+            to consult professional advisors in the appropriate field with respect to the applicability
+            of any particular aspect of the contents. In particular, nothing on this website
+            constitutes an invitation or offer to invest or deal in Novo Nordisk securities.
+            Further, the site provides selected information of diseases and their treatment.
+            Such information is not intended as medical advice. Such information is not a substitute
+            for the advice of a health care professional. If you have or suspect having any
+            health problems, you should consult your general practitioner or other qualified
+            health provider. Information provided ''as is'' The information on this site is
+            provided "as is" and Novo Nordisk makes no representations or warranties, expressed
+            or implied, including but not limited to the implied warranties of merchantability,
+            fitness for a particular purpose or non-infringement. Novo Nordisk makes no representations
+            or warranties of any kind as to the completeness, accuracy, timeliness, availability,
+            functionality and compliance with applicable laws. By using this website you accept
+            the risk that the information may be incomplete or inaccurate or may not meet your
+            needs or requirements.
+            <h3>
+                Disclaimed liability</h3>
+            Neither Novo Nordisk nor our content providers shall be liable for any damages or
+            injury arising out of your access to, or inability to access, this site or from
+            your reliance on any information provided herein. Novo Nordisk disclaims any and
+            all liability for direct, indirect, incidental, consequential, punitive, and special
+            or other damages, lost opportunities, lost profit or any other loss or damages of
+            any kind. This limitation includes damages or any viruses, which may affect your
+            computer equipment.
+            <h3>
+                Links to other sites</h3>
+            This website contains links to other sites that are not owned or controlled by Novo
+            Nordisk, please be aware that we are not responsible for or have control over the
+            privacy policies of these sites. This privacy statement applies only to information
+            gathered on this site. We strongly encourage you to read the privacy statements
+            of every site you visit that gathers personally identifiable information.
+            <h3>
+                Sites linking to us</h3>
+            Novo Nordisk does not endorse web sites linking to Novo Nordisk sites. Novo Nordisk
+            is not responsible for content on these liked sites or for control over information
+            that users may choose to provide to these sites.
+            <h3>
+                Alterations</h3>
+            Novo Nordisk reserves its right to alter, modify, substitute or delete any content
+            of or may restrict access to or discontinue distribution of this site at any time
+            and at its sole discretion.
+            <h3>
+                Copyright and use of content</h3>
+            The content of this website is the property of Novo Nordisk and is protected by
+            copyright laws. The trademarks, service marks, trade names, logos and product displayed
+            on this site are protected worldwide, and no use of any of these may be made without
+            the prior written consent of Novo Nordisk. You are welcome to download the content
+            of this website, however, only for your personal and non-commercial use. No modification
+            or further reproduction of the contents is permitted. The content may otherwise
+            not be copied or used in any other manner.
+            <h3>
+                Use of questions and comments</h3>
+            Any questions, comments, suggestions or any other communications, including any
+            ideas, inventions, concepts, techniques or know how you may forward to this site
+            or otherwise to Novo Nordisk, electronically or by any other means, are on a non-confidential
+            basis and will become the property of Novo Nordisk, which Novo Nordisk without restriction
+            may use in any fashion and for any purposes whatsoever including developing, manufacturing
+            and/or marketing goods or services.
+            <h3>
+                Governing Law</h3>
+        Your access and use of this website and the contents hereof shall be governed by
+        and interpreted in accordance with the Laws of Denmark
+    </div>
+</div>

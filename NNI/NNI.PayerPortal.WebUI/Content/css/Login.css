@@ -1,0 +1,172 @@
+
+/*
+    Main home page styles
+*/
+
+body {
+    font-family: verdana;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/Content/Images/login-page-background-gradient.png');
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+    color: #363636;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+a {
+    color: #004f93;
+    font-size: 13px;
+}
+
+a img 
+{
+    border: none;
+}
+
+div#wrapper {
+    display: inline-block;
+    width: 1190px;
+    height: 619px;
+    background-image: url('/Content/Images/login-page-background.png');
+    text-align: left;
+    position: relative;
+}
+
+div#login-box {
+    display: inline-block;
+    position: absolute;
+    top: 286px;
+    left: 787px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+div#login-submit {
+    display: inline-block;
+    position: absolute;
+    top: 286px;
+    left: 1006px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+div#access-links {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+div#image-rotation {
+    display: inline-block;
+    position: absolute;
+    max-height: 360px;
+    overflow: hidden;
+    top: 156px;
+    left: 18px;
+    padding: 0px;
+}
+
+div#splash-dots 
+{
+    position: absolute;
+    top: 516px;
+    left: 18px;
+    height: 30px;
+    width: 200px;
+}
+
+.select {
+  position: absolute;
+  width: 158px;
+  height: 21px;
+  padding: 0 24px 0 8px;
+  color: #fff;
+  font: 12px/21px arial,sans-serif;
+  background: url(select.png) no-repeat;
+  overflow: hidden;
+}
+
+div.checkbox-wrap {
+
+  padding: 0px;
+  margin: 0px;
+  margin-right: 4px;
+  display: inline-block;
+  clear: left;
+  float: left; 
+}
+
+input[type=text], input[type=password], input[type=text]:focus, input[type=password]:focus  {
+    width: 203px;
+    height: 28px;
+    background-image: url('/Content/Images/input-text-204.png');
+    border: none;
+    padding: 0px;
+}
+
+select {
+   background: transparent;
+   background-image: url('/Content/Images/input-select.png');
+   width: 167px;
+   height: 29px;
+   padding: 0px;
+}
+
+input[type=submit] 
+{
+    width: 83px;
+    height: 27px;
+    font-size: 12px;
+    color: #004F93;
+    border: none;
+    background-image: url('/Content/Images/input-submit.png');
+}
+
+input[type=submit]:active 
+{
+    background-image: url('/Content/Images/input-submit-clicked.png');
+
+}
+
+div#footer 
+{
+    display: inline-block;
+    position: absolute;
+    top: 650px;
+    left: 42px;
+    height: 400px;
+    width: 700px;
+    color: #363636;
+    font-size: 11px;
+}
+
+div#footer a
+{
+    
+    color: #363636;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+div.lightbox-submit div.link a 
+{
+    font-size: 11px;
+}
+
+input.phone-3, input.phone-3:focus
+{
+    border: none;
+    padding: 0px;
+    width: 47px;
+    background-image: url('/Content/Images/input-phone-3.png');
+}
+
+input.phone-4, input.phone-4:focus
+{
+    border: none;
+    padding: 0px;
+    width: 80px;
+    background-image: url('/Content/Images/input-phone-4.png');
+}

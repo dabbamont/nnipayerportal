@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>@ViewBag.Title</title>
+    <!-- Style Sheets -->
+    <link type="text/css" href="@Url.Content("~/Content/css/Login.css")" rel="stylesheet")" />
+    <link type="text/css" href="@Url.Content("~/Content/css/Lightbox.css")" rel="stylesheet")" />
+    <!-- Javascript -->
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.7.2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Shared.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Lightbox.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/Login.js")"></script>
+</head>
+<body>
+    <div id="wrapper">
+        @RenderBody()
+        <div id="content">
+            <div id="image-rotation">
+                <img src="@Url.Content("~/Content//Images/login-splash-resource-center.png")">
+                <img src="@Url.Content("~/Content//Images/login-splash-hedis.png")">
+                <img src="@Url.Content("~/Content//Images/login-splash-my-library.png")">
+                <img src="@Url.Content("~/Content//Images/login-splash-videos.png")">
+                <img src="@Url.Content("~/Content//Images/login-splash-request-meeting.png")">
+            </div>
+            <div id="splash-dots" style="padding-left: 20px;">
+                <img /><img /><img /><img /><img />
+            </div>
+            <form id="login" action="@Url.Action("LogOn", "Account")" method="post">
+                <div id="login-form">
+                    <div id="login-box">
+                        <div id="login-error" class="error">
+                            The password you entered is not valid. Please try again.
+                        </div>
+                        <span id="email">Email</span><br>
+                        <input type="text" name="UserName"><br>
+                        <br>
+                        <span id="password">Password</span><br>
+                        <input type="password" name="Password"><br>
+                        <br>
+                        <input type="checkbox" name="RememberMe">
+                        Remember Username<br>
+                        <br>
+                        <div id="access-links">
+                            <a href="#" id="forgot-password">Forgot my password</a><br>
+                            <a href="#" id="request-access">I'd like to request access to NovoPayerLink.com</a>
+                        </div>
+                    </div>
+                    <div id="login-submit">
+                        <input style="position: relative; top: 82px; left: 0px;" type="submit" name="submit"
+                            value="Login">
+                    </div>
+                </div>
+            </form>
+            @Html.Partial("Footer")
+        </div>
+    </div>
+    @Html.Partial("Lightboxes")
+    <div id="lightbox-overlay">
+    </div>
+</body>
+</html>

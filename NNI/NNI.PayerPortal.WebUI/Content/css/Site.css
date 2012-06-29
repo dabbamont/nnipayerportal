@@ -1,0 +1,57 @@
+/* 
+    Document   : main
+    Created on : Jun 5, 2012, 8:17:08 AM
+    Author     : dabbamont
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+    For Home Main
+*/
+
+div#wrapper {
+    display: inline-block;
+    width: 1182px;
+    height: 798px;
+
+    background-image: url('assets/images/home-page-background-large.png');
+    text-align: center;
+}
+
+div #main-content {
+    position: absolute;
+    top: 169px;
+    left: 56px;
+}
+
+div#main-navigation {
+    position: absolute;
+    top: 101px;
+}
+
+div#top-picks {
+    position: absolute;
+    width: 233px;
+    left: 833px;
+    top:101px;
+}
+
+div#footer {
+    top:798px;
+}
+
+div#highlights {
+    top: 511px;
+}
+
+div#ferris-wheel-ad {
+    left: 891px;
+}
+
+
+
+div#home-splash {
+    
+}
+

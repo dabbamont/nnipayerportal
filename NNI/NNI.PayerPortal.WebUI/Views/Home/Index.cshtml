@@ -1,0 +1,168 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@section Script {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/HomeMain.js")"></script>
+}
+@section Content{
+    <div id="splash">
+        <a href="/"><img name="home" src="@Url.Content("~/Content//Images/ferris-wheel-splash.png")"></a>
+        <a href="/Resource"><img name="resource-center" name="resource-center" src="@Url.Content("~/Content//Images/splash-resource-center.png")"></a>
+        <a href="/Plan/HedisSearch"><img name="hedis" src="@Url.Content("~/Content//Images/splash-hedis.png")"></a>
+        <a href="/Resource/Video"><img name="video" src="@Url.Content("~/Content//Images/splash-videos.png")"></a>
+        <a href="/Resource/MyLibrary"><img name="library" src="@Url.Content("~/Content//Images/splash-my-library.png")"></a>
+        <a href="/Meeting"><img name="request-meeting" src="@Url.Content("~/Content//Images/splash-request-meeting.png")"></a>
+    </div>
+    <div id="splash-dots" style="margin-left: 20px; margin-top: 10px;">
+    <img /><img /><img /><img /><img /><img />
+    </div>
+    
+
+
+    <style type="text/css">
+        .highlight 
+        {
+            display: inline-block;
+            width: 331px;
+            height: 184px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .highlight-top 
+        {
+            display: inline-block;
+            color: white;
+            font-size: 12px;
+            width: 331px;
+            height: 53px;
+            background-image: url('/Content/Images/highlight-top.png');
+
+            padding: 0px;
+            margin: 0px;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .highlight-top div 
+        {
+            display: table-cell;
+            width: 331px;
+            height: 53px;
+        }
+        .highlight-bottom 
+        {
+            display: table-cell;
+            color: black;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 0px;
+            margin: 0px;
+            width: 331px;
+            height: 132px;
+            
+ 
+            text-align: center;
+            vertical-align: middle;
+        }
+        .highlight-bottom span 
+        {
+            display: inline-block;
+            width: 90%;
+           vertical-align: middle;
+           width: 315px;
+        }
+        .highlight-top div span 
+        {
+            position: relative;
+            top: 12px;
+            left: 10px;
+            display: inline-block;
+            padding-left: 10px;
+            vertical-align: middle;
+            width: 250px;
+        }
+    </style>
+    <div id="home-highlights">
+        <div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>Hypoglycemia: a barrier to glycemic control </span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-diabetes.png')" rollover="url('/Content/Images/highlight-diabetes-rollover.png')" style="background-image: url('/Content/Images/highlight-diabetes.png');">
+                    <span>A quick look at the impact of hypoglycemia on diabetes management </span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>Quality care: standards to enhance healthcare value in diabetes</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-quality.png')" rollover="url('/Content/Images/highlight-quality-rollover.png')" style="background-image: url('/Content/Images/highlight-quality.png');">
+                    <span>Diabetes-related quality measures and guideline recommendations</span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>Ever feel as if the costs of diabetes management just keep coming around?</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-heor.png')" rollover="url('/Content/Images/highlight-heor-rollover.png')" style="background-image: url('/Content/Images/highlight-heor.png');">
+                    <span> A quick look at the costs associated with hypoglycemia</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>Hypoglycemia signs and symptoms</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-diabetes.png')" rollover="url('/Content/Images/highlight-diabetes-rollover.png')" style="background-image: url('/Content/Images/highlight-diabetes.png');">
+                    <span>A tool to help your members recognize and manage hypoglycemic events</span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>America’s diabetes crisis part one: an overview of the prevalence and cost</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-heor.png')" rollover="url('/Content/Images/highlight-heor-rollover.png')" style="background-image: url('/Content/Images/highlight-heor.png');">
+                    <span>A brief look at the economic implications of the diabetes epidemic</span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>The facts about hypoglycemia: a case manager’s guide</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-diabetes.png')" rollover="url('/Content/Images/highlight-diabetes-rollover.png')" style="background-image: url('/Content/Images/highlight-diabetes.png');">
+                    <span>A resource for case managers that provides tips for recognizing and managing hypoglycemia</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>The economic impact of diabetes</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-heor.png')" rollover="url('/Content/Images/highlight-heor-rollover.png')" style="background-image: url('/Content/Images/highlight-heor.png');">
+                    <span>The substantial costs associated with diabetes</span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>The impact of adherence</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-diabetes.png')" rollover="url('/Content/Images/highlight-diabetes-rollover.png')" style="background-image: url('/Content/Images/highlight-diabetes.png');">
+                    <span>The importance of adherence to medication for members with diabetes</span>
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight-top">
+                    <div><span>America’s diabetes crisis part two: effectively managing your member population</span></div>
+                </div>
+                <div class="highlight-bottom" normal="url('/Content/Images/highlight-heor.png')" rollover="url('/Content/Images/highlight-heor-rollover.png')" style="background-image: url('/Content/Images/highlight-heor.png');">
+                    <span>Information and recommendations on managing diabetes and its associated costs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+}

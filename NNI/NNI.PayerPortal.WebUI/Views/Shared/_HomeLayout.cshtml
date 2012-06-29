@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        @Html.Partial("Head")
+        @RenderSection("Script")
+        
+    </head>
+    <body>
+    @RenderBody()
+	    <div id="wrapper">
+            
+	        @Html.Partial("Preferences")
+
+            @Html.Partial("Navigation")
+	        <div id="home-link" style=" display: inline-block; position: absolute; top: 20px; left: 20px; width: 200px; height: 75px;">
+                <script>
+                    $(document).ready(function () {
+                        $('#home-link').click(function () {
+                            window.open('http://www.novonordisk.com');
+                        });
+                    });
+                </script>
+            </div>
+            <div id="home-link2" style="cursor: pointer;  display: inline-block; position: absolute; top: 20px; left: 190px; width: 400px; height: 75px;">
+                <script>
+                    $(document).ready(function () {
+                        $('#home-link2').click(function () {
+                            document.location.href = '/';
+                        });
+                    });
+                </script>
+            </div>
+
+
+	        <div id="content">
+
+        	    @RenderSection("Content")
+            
+                @Html.Partial("FerrisWheelAd")
+
+           
+            </div>
+             @Html.Partial("Footer")
+	        @Html.Partial("TopPicks")
+            @Html.Partial("Lightboxes")
+            <div id="lightbox-overlay"></div>
+         </div>
+    </body>
+</html>

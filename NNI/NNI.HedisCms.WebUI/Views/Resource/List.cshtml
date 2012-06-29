@@ -1,0 +1,17 @@
+﻿@model IEnumerable<NNI.HedisCms.Domain.Entities.Resource>
+
+@{
+    ViewBag.Title = "List";
+}
+
+@foreach (var r in Model)
+{
+    <div class = "resource">
+        <h1>@r.Category</h1>
+        <h2>@r.Title</h2>
+        <p>@r.Description</p>
+
+        <p>THMB Image Url: @r.ThumbnailUrl</p>
+        <p>Download PDF URL: @r.ResourceUrl</p>
+    </div>
+}

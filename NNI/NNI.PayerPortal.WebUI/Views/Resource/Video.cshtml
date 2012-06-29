@@ -1,0 +1,94 @@
+@{
+    ViewBag.Title = "Videos";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@section Script {
+    <!-- <script type="text/javascript" src="@Url.Content("~/Scripts/Videos.js")"></script>
+    <link href="@Url.Content("~/Content/css/video-js.css")" rel="stylesheet">
+        <script src="@Url.Content("~/Scripts/video.js")"></script>  -->
+}
+
+@section Content {
+
+    <div id="video-player-title">
+        Video Title
+    </div>
+    <div id="video-player-subtitle">
+        Video Subtitle
+    </div>
+    <div id="video-player">
+        <div id="video-player-embed">
+            <video id="video-embed" class="video-js vjs-default-skin" controls preload="auto"
+                width="769" height="335" data-setup="{}" src="" poster="">
+                            
+                        </video>
+        </div>
+        <div id="video-player-button-container">
+            <img id="video-player-button-rewind" src="@Url.Content("~/Content//Images/video-player-button-rewind.png")">
+            <img id="video-player-button-play" src="@Url.Content("~/Content//Images/video-player-button-play.png")">
+            <img id="video-player-button-pause" src="@Url.Content("~/Content//Images/video-player-button-pause.png")">
+            <img id="video-player-button-fast-forward" src="@Url.Content("~/Content//Images/video-player-button-fast-forward.png")">
+        </div>
+        <div id="video-player-volume-button-container">
+            <div id="video-player-button-volume">
+                <img src="@Url.Content("~/Content//Images/video-player-button-volume.png")"></div>
+            <div id="video-player-button-maximize">
+                <img src="@Url.Content("~/Content//Images/video-player-button-maximize.png")"></div>
+        </div>
+        <div id="video-player-time-container">
+            <div id="video-player-time-text">
+                00:00 / 00:00</div>
+        </div>
+        <div id="video-player-time-slider">
+            <div id="video-player-time-slider-handle">
+                <div id="time-slider-handle-img">
+                </div>
+            </div>
+        </div>
+        <div id="video-player-volume-slider">
+            <div id="video-player-volume-slider-fill">
+                <div id="video-player-volme-slider-handle">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="video-browser">
+        <div id="video-browser-left">
+            <img id="video-browser-button-left" src="@Url.Content("~/Content//Images/video-browser-left-arrow.png")">
+        </div>
+        <div id="video-browser-middle">
+            <div class="video-browser-item">
+                <div id="video-browser-item-thumbnail">
+                    <img src="@Url.Content("~/Content//Images/video-browser-thumbnail.png")">
+                </div>
+                <div id="video-browser-item-text">
+                    Video Text</div>
+            </div>
+            <div class="video-browser-item">
+                <div id="video-browser-item-thumbnail">
+                    <img src="@Url.Content("~/Content//Images/video-browser-thumbnail.png")">
+                </div>
+                <div id="video-browser-item-text">
+                    Video Text</div>
+            </div>
+            <div class="video-browser-item">
+                <div id="video-browser-item-thumbnail">
+                    <img src="@Url.Content("~/Content//Images/video-browser-thumbnail.png")">
+                </div>
+                <div id="video-browser-item-text">
+                    Video Text</div>
+            </div>
+            <div class="video-browser-item">
+                <div id="video-browser-item-thumbnail">
+                    <img src="@Url.Content("~/Content//Images/video-browser-thumbnail.png")">
+                </div>
+                <div id="video-browser-item-text">
+                    Video Text</div>
+            </div>
+        </div>
+        <div id="video-browser-right">
+            <img id="video-browser-button-right" src="@Url.Content("~/Content//Images/video-browser-right-arrow.png")">
+        </div>
+    </div>
+}

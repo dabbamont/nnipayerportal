@@ -1,0 +1,26 @@
+/* 
+    Document   : print
+    Created on : Jun 13, 2012, 2:50:47 PM
+    Author     : dabbamont
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div#content {
+    background-image: none;
+    
+}
+
+div#hedis-results {
+    position: absolute;
+    width: 833px;
+    height: available;
+    top: 16px;
+    left: 0px;
+    overflow: visible;
+}
+
+div#hedis-result-set {
+    display: inline-block;
+    width: 800px;
+}

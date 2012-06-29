@@ -1,0 +1,30 @@
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.WebUI.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.WebUI.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\EntityFramework.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Moq.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Ninject.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\EntityFramework.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Moq.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Moq.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Ninject.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\Ninject.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\obj\Debug\NNI.HedisCms.WebUI.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\obj\Debug\NNI.HedisCms.WebUI.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.Domain.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.Domain.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.WebUI.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.WebUI.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\EntityFramework.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Moq.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Ninject.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.Domain.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\NNI.HedisCms.Domain.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\EntityFramework.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Moq.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Moq.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Ninject.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\bin\Ninject.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\obj\Debug\NNI.HedisCms.WebUI.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.HedisCms.WebUI\obj\Debug\NNI.HedisCms.WebUI.pdb

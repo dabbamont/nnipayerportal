@@ -1,0 +1,72 @@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@section Script {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ResourceCenter.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //loadResourceCenterSection(1, 1);
+        });
+    </script>
+}
+@section Content {
+   
+    <div id="resource-center-library-header-wrap">
+        <div id="resource-center-splash-header">
+            <div id="resource-center-splash-header-1">
+                Welcome to the Resource Center
+            </div>
+            <div id="resource-center-splash-header-2">
+                Click the icons for information on available materials.
+            </div>
+        </div>
+        <div id="resource-center-library-pagination">
+            <a href="#" pagenum="1">1</a>
+        </div>
+    </div>
+     @Html.Partial("ResourceNavigation")
+    <div id="resource-center-library">
+        <div id="library-items">
+            <center>
+            
+            <table>
+                <tr>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                    <td class="library-item">
+                        <img src="@Url.Content("~/Content//Images/library-thumb.png")">
+                    </td>
+                </tr>
+            </table>
+
+            </center>
+        </div>
+    </div>
+}

@@ -1,0 +1,317 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@section Script {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/HedisSearch.js")"></script>
+}
+@section Content {
+    <div id="hedis-form">
+        <h1>
+            HEDIS<sup>®</sup> Tool
+        </h1>
+        <p>
+            The National Committee for Quality Assurance's (NCQA) Health Plan Report Card allows
+            you to compare your plan to others in the area. Please enter your information in
+            the following fields. You may choose up to 10 plans at a time.
+        </p>
+        <div id="hedis-table-wrap">
+            <table width="754">
+                <tr>
+                    <td width="10">
+                        1.
+                    </td>
+                    <td>
+                        <select name="PlanName">
+                            <option>BCBS</option>
+                            <option>Cigna</option>
+                            <option>Aetna</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="State">
+                            <option>Option 1</option>
+                            <option>Alabama</option>
+                            <option>Alaska</option>
+                            <option>American Samoa</option>
+                            <option>Arizona</option>
+                            <option>Arkansas</option>
+                            <option>California</option>
+                            <option>Colorado</option>
+                            <option>Connecticut</option>
+                            <option>Delaware</option>
+                            <option>District of Columbia</option>
+                            <option>Florida</option>
+                            <option>Georgia</option>
+                            <option>Guam</option>
+                            <option>Hawaii</option>
+                            <option>Idaho</option>
+                            <option>Illinois</option>
+                            <option>Indiana</option>
+                            <option>Iowa</option>
+                            <option>Kansas</option>
+                            <option>Kentucky</option>
+                            <option>Louisiana</option>
+                            <option>Maine</option>
+                            <option>Maryland</option>
+                            <option>Massachusetts</option>
+                            <option>Michigan</option>
+                            <option>Minnesota</option>
+                            <option>Mississippi</option>
+                            <option>Missouri</option>
+                            <option>Montana</option>
+                            <option>Nebraska</option>
+                            <option>Nevada</option>
+                            <option>New Hampshire</option>
+                            <option>New Jersey</option>
+                            <option>New Mexico</option>
+                            <option>New York</option>
+                            <option>North Carolina</option>
+                            <option>North Dakota</option>
+                            <option>Northern Marianas Islands</option>
+                            <option>Ohio</option>
+                            <option>Oklahoma</option>
+                            <option>Oregon</option>
+                            <option>Pennsylvania</option>
+                            <option>Puerto Rico</option>
+                            <option>Rhode Island</option>
+                            <option>South Carolina</option>
+                            <option>South Dakota</option>
+                            <option>Tennessee</option>
+                            <option>Texas</option>
+                            <option>Utah</option>
+                            <option>Vermont</option>
+                            <option>Virginia</option>
+                            <option>Virgin Islands</option>
+                            <option>Washington</option>
+                            <option>West Virginia</option>
+                            <option>Wisconsin</option>
+                            <option>Wyoming</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="PlanType">
+                            <option>PPO</option>
+                            <option>HMO</option>
+                            <option>POS</option>
+                            <option>HMO/POS Combined</option>
+                            <option>HMO/POS/PPO Combined</option>
+                            <option>HMO/PPO Combined</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="DiseaseState">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10">
+                        2.
+                    </td>
+                    <td>
+                        <select name="provider">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="state">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="type">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="market">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10">
+                        3.
+                    </td>
+                    <td>
+                        <select name="provider">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="state">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="type">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="market">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="10">
+                        4.
+                    </td>
+                    <td>
+                        <select name="provider">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="state">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="type">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="market">
+                            <option>Option 1</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="hedis-options">
+            <div id="add-plan">
+                <a href="#">Add another plan</a>
+            </div>
+            <div id="hedis-search-submit">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+    <div id="hedis-results">
+        <div>
+            Your search results
+        </div>
+        <div id="hedis-result-set">
+            <div id="hedis-single-result">
+                <table width="754" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            
+                            <td>
+                                Plan Name
+                            </td>
+                            <td>
+                                State
+                            </td>
+                            <td>
+                                Plan Type
+                            </td>
+                            <td>
+                                Diabetes Management Grade
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="197" id=state">
+                                A state
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                       <tr>
+                            <td width="197" id="plan-name">
+                                New York
+                            </td>
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="197" id="plan-name">
+                                New York
+                            </td>
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="197" id="plan-name">
+                                New York
+                            </td>
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="197" id="plan-name">
+                                New York
+                            </td>
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="197" id="plan-name">
+                                New York
+                            </td>
+                            <td width="197" id="plan-name">
+                                Some Data
+                            </td>
+                            <td width="209" id="plan-type">
+                                Some Data
+                            </td>
+                            <td id="plan-grade">
+                                Some Data
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="hedis-search-foot">
+            <div id="print-button">
+                <input type="submit" value="Print"></div>
+            <div id="ncqa-link">
+                For more information, please visit NCQA at <a href="http://www.ncqa.org" target="_blank">
+                    http://www.ncqa.org/</a>
+            </div>
+        </div>
+    </div>
+}

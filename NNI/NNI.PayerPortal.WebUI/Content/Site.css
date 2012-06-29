@@ -1,0 +1,1169 @@
+
+/*
+    Main home page styles
+*/
+
+body {
+    font-family: verdana;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/Images/home-page-background-gradient.png');
+    background-repeat: repeat-x;
+    background-color: #ECECEC;
+    color: #363636;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+a {
+    color: #004f93;
+    font-size: 13px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+h1 {
+    color: #004F93;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+input, select {
+    font-size: 13px;
+    color: #363636;
+}
+
+div#wrapper {
+    display: inline-block;
+    width: 1182px;
+    height: 798px;
+    background-image: url('/Images/home-page-background-large.png');
+    text-align: left;
+    position: relative;
+}
+
+
+div#user-preferences {
+    position: absolute;
+    display: inline-block;
+    width: 402px;
+    height: 35px;
+    top: 22px;
+    left: 713px;
+    vertical-align: top;
+    text-align: right;
+    font-size: 11px;
+    color: #666666;
+    
+}
+
+div#user-preferences a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #004f93;
+}
+
+div#search {
+    position: absolute;
+    vertical-align: top;
+    text-align: right;
+    top: 61px;
+    left: 969px;
+    width: 169px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#search div {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#search-text {
+    left: 0px;
+}
+
+div#search-button {
+    left: 129px;
+}
+
+div#search input {
+    width: 120px;
+    height: 15px;
+}
+
+div#content {
+    position: absolute;
+    top: 169px;
+    left: 56px;
+    padding: 0px;
+    
+}
+
+div#navigation {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+}
+
+div#navigation div {
+    position: absolute;
+    height: 69px;
+    width: 130px;
+}
+
+div#nav-home {
+    position: absolute;
+    left: 56px;
+}
+
+div#nav-resource-center {
+    position: absolute;
+    left: 195px;
+}
+
+div#nav-hedis{
+    position: absolute;
+    left: 336px;
+}
+
+div#nav-video {
+    position: absolute;
+    left: 476px;
+}
+
+div#nav-library {
+    position: absolute;
+    left: 617px;
+}
+
+div#nav-request-meeting {
+    position: absolute;
+    left: 757px;
+}
+
+
+div#navigation img {
+    
+
+}
+
+div#top-picks {
+    position: absolute;
+    width: 233px;
+    top: 172px;
+    left: 899px;
+}
+
+div#top-picks ul {
+    list-style-type: none;
+}
+
+div#top-picks div {
+    display: block;
+    height: 60px;
+    
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 10px;
+    
+}
+
+div#top-picks div a {
+    display: table-cell;
+    font-size: 11px;
+    color: #009ED9;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 12px;
+    height: 60px;
+}
+
+
+
+div#footer {
+    position: absolute;
+    top: 798px;
+    left: 0px;
+}
+
+
+
+div#ferris-wheel-ad {
+    position: absolute;
+    top: 493px;
+    left: 899px;
+}
+
+/*
+    For SplashPage
+*/
+
+div#splash {
+    position: relative;
+    padding: 0px;
+}
+
+
+
+div#splash img#rctest {
+    visibility: visible;
+    display: inline-block;
+}
+
+div#highlights-1 {
+    left: 56px;
+}
+
+div#highlights-2 {
+    left: 415px;
+}
+
+div#highlights-3 {
+    left: 770px;
+}
+
+div#home-highlights {
+    position: absolute;
+    top: 351px;
+    left: 0px;
+    width: 1182px;
+}
+
+div#home-highlights div {
+    padding: 0px;
+    display: inline-block;
+    
+}
+
+
+
+
+/*
+    For HedisSearch
+*/
+
+div#hedis-form {
+    position: absolute;
+    background-image: url('/Images/form-background.png');
+    width: 833px;
+    top: 0px;
+    left: 0px;
+}
+
+div#hedis-options {
+    width:833px;
+}
+
+div#hedis-options div {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 410px;
+}
+
+div#add-plan {
+    font-size: 18px;
+}
+
+div#hedis-search-submit {
+    text-align: right;
+}
+
+
+
+div#hedis-form tr {
+    height: 38px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    color: #363636;
+}
+
+div#hedis-form td {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+div#hedis-form td select {
+    width: 100%;
+}
+
+div#hedis-results {
+    background-image: url('/Images/form-background.png');
+    position: absolute;
+    width: 833px;
+    top: 16px;
+    left: 0px;
+}
+
+div#hedis-results div {
+    padding: 8px;
+}
+
+div#hedis-results table {
+    font-size: 13px;
+    color: #004f93;
+    font-weight: normal;
+}
+
+div#hedis-results table thead {
+    font-weight: bold;
+    color: #000000;
+}
+
+div#hedis-results table tr {
+    height: 40px;
+}
+
+div#hedis-results table td {
+    margin: 0px;
+    padding: 4px;
+    border-bottom: 1px solid #cccccc;
+}
+
+div#print-button {
+    width: 754px;
+    text-align: right;
+}
+
+div#ncqa-link {
+    
+}
+
+
+/*
+    For MyLibrary
+*/
+
+div#library-header h1 {
+    height: 20px;
+}
+
+div#library-header h2 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div#library-sorting, div#library-pagination {
+    font-size: 13px;
+}
+
+div#library-sorting {
+    display: inline-block;
+    width: 410px;
+    color: #004f93;
+}
+
+div#library-sorting a {
+    margin-right: 15px;
+}
+
+div#library-pagination a {
+    margin-left: 4px;
+}
+
+div#library-pagination {
+    display: inline-block;
+    text-align: right;
+    width: 410px;
+    color: #004f93;
+}
+
+div#library-bookshelf {
+    margin-top: 20px;
+    
+    display: inline-block;
+    width: 828px;
+    height: 493px;
+    background-image: url('/Images/resource-center-bookshelf.png');
+    text-align: center;
+    padding: 0px;
+}
+
+div#library-items {
+    display: inline-block;
+    width: 828px;
+    height: 493px;
+    background-image: url('/Images/resource-center-bookshelf.png');
+    text-align: center;
+    padding: 0px;
+}
+
+div#library-items ul {
+    list-style-type: none;
+}
+
+div#library-items ul li {
+    display: table-cell;
+    float: left;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.library-item img {
+    vertical-align: middle;
+}
+
+div.library-item {
+    display: table-cell;
+    width: 100%;
+    height: 164px;
+    vertical-align: middle;
+}
+
+
+/*
+    For ResourceCenterLibrary
+*/
+
+div#resource-center-library {
+
+}
+
+div#resource-center-library-header-wrap {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-library-header-wrap div {
+    display: inline-block;
+    width: 410px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-library-pagination {
+    text-align: right;
+    
+}
+
+div#resource-center-library-header h1 {
+    height: 20px;
+}
+
+div#resource-center-library-header h2 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+div#resource-center-library-items ul {
+    list-style-type: none;
+}
+
+div#resource-center-library-items ul li {
+    display: table-cell;
+    float: left;
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#resource-center-library-items {
+    margin-top: 20px;
+    
+    display: inline-block;
+    width: 828px;
+    height: 493px;
+    background-image: url('/Images/resource-center-bookshelf.png');
+    text-align: center;
+    padding: 0px;
+}
+
+div#resource-center-splash-header-wrap {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-splash-header-1 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #004F93;
+}
+
+div#resource-center-splash-header-2 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #363636;
+}
+
+div#resource-center-splash-header-wrap div {
+    display: block;
+    width: 820px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-splash-pagination {
+    text-align: right;
+    
+}
+
+div#resource-center-splash-header h1 {
+    height: 20px;
+}
+
+div#resource-center-splash-header h2 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/*
+    For ResearchCenterNavigation
+*/
+
+div#resource-center-navigation {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-navigation div {
+    display: table-cell;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-navigation div img {
+    padding: 0px;
+    margin: 0px;
+}
+
+div#resource-center-preview {
+    display: block;
+    width: 820px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*
+    For ResourceCenterPreview
+*/
+
+div#resource-center-preview {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('/Images/resource-center-preview-bg.png');
+}
+
+div#resource-center-preview img {
+
+}
+
+div#resource-center-lightbox {
+    
+}
+
+/*
+    Resource center main office image rollovers
+*/
+
+div#preview-diabetes-management {
+    position: absolute;
+    left: 452px;
+    top: 161px;
+    width: 67px;
+    height: 59px;
+}
+
+div#preview-quality-measures {
+    position: absolute;
+    left: 172px;
+    top: 398px;
+    width: 345px;
+    height: 92px;
+}
+
+div#preview-health-economics {
+    position: absolute;
+    left: 267px;
+    top: 299px;
+    width: 149px;
+    height: 50px;
+}
+
+div#preview-medicare {
+    position: absolute;
+    left: 434px;
+    top: 312px;
+    width: 181px;
+    height: 79px;
+}
+
+div#preview-continuity {
+    position: absolute;
+    left: 636px;
+    top: 183px;
+    width: 80px;
+    height: 69px;
+}
+
+
+/*
+    For Video
+*/
+
+div#video-player {
+    position: relative;
+    width: 840px;
+    height: 425px;
+    background-image: url('/Images/video-player-background.png');
+}
+
+div#video-player-embed {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 37px;
+}
+
+div#video-player-button-container {
+    position: absolute;
+    top: 360px;
+    left: 35px;
+}
+
+div#video-player-volume-button-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div#video-player-button-maximize {
+    position: absolute;
+    top: 360px;
+    left: 759px;
+}
+
+div#video-player-button-volume {
+    position: absolute;
+    top: 360px;
+    left: 718px;
+}
+
+div#video-player-button-container img {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+div#video-player-time-container {
+    position: absolute;
+    top: 397px;
+    left: 35px;
+    font-size: 9px;
+    width: 767px;
+    color: white;
+}
+
+div#video-player-time-text {
+    display: table-cell;
+    width: 93px;
+    top: 0px;
+    left: 0px;
+    
+}
+
+div#video-player-time-slider {
+    
+}
+
+div#video-player-time-slider-handle {
+    
+}
+
+div#video-browser {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    height: 139px;
+}
+
+div#video-browser-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#video-browser-middle {
+    position: absolute;
+    left: 48px;
+    top: 0px;
+    display: inline-block;
+    background-image: url('/Images/video-browser-middle.png');
+    width: 746px;
+    height: 136px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 9px;
+    color: white;
+}
+
+div#video-browser-right {
+    position: absolute;
+    left: 794px;
+    top: 0px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.video-browser-item {
+    display: inline-block;
+    margin-top: 24px;
+    width: 118px;
+    height: 65px;
+    margin-left: 34px;
+}
+
+div#video-browser-item-thumbnail {
+    display: block;
+}
+
+div#video-browser-item-text {
+    display: block;
+    height: 34px;
+}
+
+
+
+
+/*
+    For RequestMeeting
+*/
+
+div#request-meeting {
+    position: relative;
+    background-image: url('/Images/form-background.png');
+    width: 824px;
+    height: 588px;
+    line-height: 26px;
+}
+
+div#request-meeting-image {
+    position: absolute;
+    top: 20px;
+    left: 104px;
+}
+
+div#request-meeting-form {
+    position: absolute;
+    top: 261px;
+    left: 104px;
+}
+
+div#request-meeting-radio {
+    display: block;
+    position: relative;
+    left: -32px;
+    top: 26px;
+    width: 32px;
+    height: 32px;
+}
+
+div#request-meeting-options {
+    position: relative;
+    top: 0px;
+    left: 32px;
+    color: #004f93;
+}
+
+div.request-meeting-option {
+    display: block;
+}
+
+div.request-meeting-option-check {
+    display: inline-block;
+    width: 30px;
+}
+
+div.request-meeting-option-text {
+    display: inline-block;
+    
+}
+
+
+
+/*
+    For ItemLightbox
+*/
+
+div#library-item-lightbox {
+    display: block;
+    position: relative;
+    width: 399px;
+    height: 415px;
+    background-color: white;
+    background-image: url('/Images/item-lightbox-bg.png');
+    
+}
+
+div#item-lightbox-close {
+    position: absolute;
+    top: 16px;
+    left: 367px;
+}
+
+div#item-lightbox-section {
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    left: 29px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #363636;
+}
+
+div#item-lightbox-info {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    left: 199px;
+    width: 168px;
+}
+
+div#item-lightbox-title {
+    display: block;
+    position: static;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #004F93;
+}
+
+div#item-lightbox-description {
+    display: block;
+    position: static;
+    font-size: 11px;
+    font-weight: normal;
+    color: #363636;
+}
+
+div#item-lightbox-note {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div#item-lightbox-image {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    left: 29px;
+}
+
+div#item-lightbox-buttons {
+    display: block;
+    position: absolute;
+    top: 303px;
+    left: 199px;
+}
+
+
+div.lightbox-button {
+    position: relative;
+    display: block;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+div.lightbox-button-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: table-cell;
+    width: 38px;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+div.lightbox-button-text {
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    display: table-cell;
+    width: 130px;
+    height: 24px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+
+div.lightbox-button-text a {
+    display: table-cell;
+    width: 130px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+div.lightbox-button-text a {
+    color: #004F93;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/*
+    For the item request lightbox
+*/
+
+div#library-item-request-lightbox {
+    position: relative;
+    width: 399px;
+    height: 415px;
+    background-color: white;
+    background-image: url('/Images/item-lightbox-bg.png');
+    font-size: 13px;
+    line-height: 17px;
+    
+}
+
+div#item-request-lightbox-close {
+    position: absolute;
+    top: 16px;
+    left: 367px;
+}
+
+div#item-request-form {
+    position: absolute;
+    top: 42px;
+    left: 29px;
+}
+
+div.form-check {
+    display: block;
+    color: #004F93;
+}
+
+.form-check input[type='checkbox' ]{
+    display: table-cell;
+    width: 35px;
+    height: 23px;
+}
+
+.form-check input[type='radio' ]{
+    display: table-cell;
+    width: 22px;
+    height: 23px;
+}
+
+.form-check span {
+    display: table-cell;
+    height: 23px;
+    vertical-align: middle;
+}
+
+span.form-label {
+    width: 65px;
+}
+
+span.form-check {
+    color: #004F93;
+}
+
+div#library-item-request-submit {
+    position: absolute;
+    top: 0px;
+    left: 241px;
+}
+
+div#library-item-lightbox-privacy-policy {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div#library-item-request-response {
+    display: none;
+}
+
+div#library-item-lightbox-bottom {
+    position: relative;
+}
+
+/*
+    User Preferences Lightbox
+*/
+
+div#user-preferences-lightbox {
+    display: block;
+    z-index: 10;
+    position: relative;
+    width: 399px;
+    height: 514px;
+    background-color: white;
+    background-image: url('/Images/user-preferences-lightbox-bg.png');
+    font-size: 13px;
+    line-height: 17px;
+    color: #363636;
+    
+}
+
+div.user-preferences-form-line {
+    margin-bottom: 17px;
+}
+
+span.user-form-label {
+    width: 125px;
+    display: inline-table;
+    vertical-align: middle;
+    
+}
+
+div#user-preferences-lightbox div.form-check span {
+    color: #363636;
+}
+
+div#user-preferences-lightbox-close {
+    position: absolute;
+    top: 16px;
+    left: 367px;
+}
+
+div#user-preferences-form {
+    position: absolute;
+    top: 42px;
+    left: 29px;
+    font-size: 14px;
+    color: #363636;
+}
+
+div#user-preferences-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #004F93;
+}
+
+div.user-preferences-sub-form {
+    font-size: 14px;
+    color: #004F93
+}
+
+div#user-preferences-confirmation {
+    display: none;
+}
+
+/*
+    For external link lightbox
+*/
+
+div#lightbox-overlay {
+    opacity: 0.6;
+    display: table-cell;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%; 
+    width: 100%; 
+    padding: 0px; 
+    margin: 0px;
+    background-color: black;
+    z-index: 3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#lightbox-wrap {
+    display: table-cell;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%; 
+    width: 100%; 
+    padding: 0px; 
+    margin: 0px;
+    z-index: 4;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div#lightboxes {
+    position: fixed;
+    display: inline-block;
+    width: 399px;
+    vertical-align: middle; 
+    text-align: left;
+    z-index: 5;
+}
+
+/* Styles for basic forms
+
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+*/
+
+/* Styles for validation helpers
+ 
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+*/

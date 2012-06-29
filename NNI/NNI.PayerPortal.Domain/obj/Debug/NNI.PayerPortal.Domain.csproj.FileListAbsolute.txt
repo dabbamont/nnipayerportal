@@ -1,0 +1,27 @@
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.dll.config
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\EntityFramework.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\obj\Debug\NNI.PayerPortal.Domain.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.PayerPortal.Domain\obj\Debug\NNI.PayerPortal.Domain.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.dll.config
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\NNI.PayerPortal.Domain.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\EntityFramework.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Moq.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.pdb
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\bin\Debug\Ninject.xml
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\obj\Debug\NNI.PayerPortal.Domain.dll
+C:\Documents and Settings\All Users\Documents\NNI(Integrated)\NNI\NNI.PayerPortal.Domain\obj\Debug\NNI.PayerPortal.Domain.pdb

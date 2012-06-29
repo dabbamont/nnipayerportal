@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Request Meeting";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@section Script {
+
+}
+
+@section Content {
+    <div id="request-meeting">
+        <div id="request-meeting-image">
+            <img src="@Url.Content("~/Content//Images/request-meeting-people.png")">
+        </div>
+        <div id="request-meeting-form">
+            
+            <script>
+                $('div#request-meeting-options input[type=submit]').click(function () {
+                    var vars = {
+                        "OrderResource": $('input[name=OrderResource]').val(),
+                        "AskQuestion": $('input[name=AskQuestion]').val(),
+                        "HaveDiscussion": $('input[name=HaveDiscussion]').val()
+                    };
+                    $.post("/Meeting/", JSON.stringify(vars), function (response) {
+                        console.log(response);
+                    });
+                });
+            </script>
+
+            <div id="request-meeting-options">
+                <font color=black>Please check all that apply.</font>
+                <br />
+                I'd like to request a meeting with an Account Executive to:
+                <table>
+                    <tr>
+                        <td width="10">
+                            <input type="checkbox" name="OrderResource">
+                        </td>
+                        <td>
+                            Order a resource
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="AskQuestion">
+                        </td>
+                        <td>
+                            Ask a question
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="HaveDiscussion">
+                        </td>
+                        <td>
+                            Have an in-person discussion
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <input type="submit" name="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+}

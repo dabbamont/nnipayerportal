@@ -1,0 +1,11 @@
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\NNI.HedisCms.UnitTests.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\NNI.HedisCms.UnitTests.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Moq.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Ninject.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Moq.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Moq.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Ninject.pdb
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\bin\Debug\Ninject.xml
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\obj\Debug\NNI.HedisCms.UnitTests.dll
+C:\Users\firmq\Documents\Visual Studio 2010\Projects\ResoluteDigital\NNI\NNI.HedisCms.UnitTests\obj\Debug\NNI.HedisCms.UnitTests.pdb

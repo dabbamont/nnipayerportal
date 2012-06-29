@@ -1,0 +1,14 @@
+<div id="user-preferences">
+    Welcome back, @HttpContext.Current.Profile["FirstName"] @HttpContext.Current.Profile["LastName"] |  
+    <a id="preferences-link" href="#">Preferences</a> |
+    <a id="logout-link" href="@Url.Content("~/Account/LogOff")">Log Out</a>
+</div>
+
+<div id="search">
+    <div id="search-text">
+        <input type="text" />
+    </div>
+    <div id="search-button">
+        <img src="@Url.Content("~/Content//Images/search.png")" />
+    </div>
+</div>

@@ -1,0 +1,53 @@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+@section Script {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/ResourceCenter.js")"></script>
+}
+@section Content {
+
+    <div id="resource-center-splash-header-wrap">
+        <div id="resource-center-splash-header">
+            <div id="resource-center-splash-header-1">
+                Welcome to the Resource Center
+            </div>
+            <div id="resource-center-splash-header-2">
+                Scroll over for information on available materials.
+            </div>
+        </div>
+    </div>
+    @Html.Partial("ResourceNavigation")
+    <div id="resource-center-preview">
+    <!-- 
+        <img name="diabetes-management" src="@Url.Content("~/Content//Images/resource-center-preview-diabetes-management.png")">
+        <img name="quality-measures" src="@Url.Content("~/Content//Images/resource-center-preview-quality-measures.png")">
+        <img name="health-economics" src="@Url.Content("~/Content//Images/resource-center-preview-health-economics.png")">
+        <img name="medicare" src="@Url.Content("~/Content/Images/resource-center-preview-medicare.png")">
+        <img name="continuity" src="@Url.Content("~/Content/Images/resource-center-preview-continuity.png")">
+        -->
+        
+         
+        <div id="preview-layers-hover">
+            <img name="preview-diabetes-management" src="@Url.Content("~/Content//Images/resource-center-preview-diabetes-management.png")">
+            <img name="preview-quality-measures" src="@Url.Content("~/Content//Images/resource-center-preview-quality-measures.png")">
+            <img name="preview-health-economics" src="@Url.Content("~/Content//Images/resource-center-preview-health-economics.png")">
+            <img name="preview-medicare" src="@Url.Content("~/Content/Images/resource-center-preview-medicare.png")">
+            <img name="preview-continuity" src="@Url.Content("~/Content/Images/resource-center-preview-continuity.png")">
+            <div id="glow"></div>
+        </div>
+
+        <div id="preview-layers" style="z-index: 100;">
+            <div id="preview-diabetes-management">
+            </div>
+            <div id="preview-quality-measures">
+            </div>
+            <div id="preview-health-economics">
+            </div>
+            <div id="preview-medicare">
+            </div>
+            <div id="preview-continuity">
+            </div>
+        </div>
+    </div>
+}
